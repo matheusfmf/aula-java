@@ -1,26 +1,24 @@
-# Projeto de Estudos Java
+# Guia Rápido – Projeto Spring Boot: Cálculo de Salário
 
-## Descrição
-Este projeto tem como objetivo praticar conceitos de **Java** e **Programação Orientada a Objetos (POO)**, incluindo:
-- Classes e Objetos
-- Herança e Polimorfismo
-- Encapsulamento (`private`, `protected`, `public`)
-- Métodos e atributos
-- Estrutura de pacotes (`entities`, `services`, etc.)
-- Uso de Scanner para entrada de dados
-- Boas práticas de código
+## Pré-requisitos
+- Java JDK 21 instalado e variável JAVA_HOME configurada:
+  java -version
+- IDE: IntelliJ IDEA ou Eclipse
+- Maven (ou usar o wrapper do projeto)
 
-O projeto serve como **ambiente de aprendizado**, onde diferentes exercícios e exemplos são implementados.
+## Como Rodar
+### Pela IDE
+1. Abra AulaApplication.java
+2. Clique com o botão direito → Run 'AulaApplication'
 
----
+### Pelo Terminal
+- Windows:
+  mvnw.cmd spring-boot:run
+- Linux/Mac:
+  ./mvnw spring-boot:run
 
-## Funcionalidades
-- Cadastro de empregados e cálculo de salário líquido.
-- Cálculo de impostos e descontos (ex: Previdência, Taxa de imposto).
-- Demonstração de herança e polimorfismo com classes de exemplo (Pessoa, Aluno, Funcionario).
-- Encapsulamento de atributos com getters e setters.
+A aplicação iniciará no localhost:8080
 
----
-
-## Estrutura do Projeto
-
+## Autor
+- Matheus Freitas Marques Faustino
+- LinkedIn: https://www.linkedin.com/in/matheusfreitasmarques/
